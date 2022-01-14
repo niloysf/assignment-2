@@ -1,0 +1,207 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:wght@400;500&family=Vujahday+Script&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(153, 170, 175);
+    }
+    main{
+        display:flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items:center ;
+    } 
+    .container{
+        background-color: white;
+        
+        /* border-radius: 10px; */
+        padding:30px ;
+        margin-top: 21px;
+    
+    }
+    .common-btn-style{
+        background-color: #E02C6D;
+        width: 196px;
+height: 44px;
+border: none;
+    }
+.common-btn-style i{
+    margin-left: 8px;
+}
+
+    .main-btn{
+        border-radius: 25px;
+    }
+    .full{
+        display: flex;
+    }
+    .half img{
+        
+        width: 440px;
+        height: 414px;
+    }
+    hr{
+            border: 1px solid #D1D1D1;
+            margin: 27px;
+        }
+   footer{
+    Width:1104px;
+    
+     padding: 50px , 50px, 589px ,538px;
+     text-align: center; 
+    background-color:#0A0826 ;
+    /* border-radius: 10px; */
+   
+   }
+   footer p{
+       color: white;
+   }
+  footer .simble{
+        color: white;
+        padding-top: 0px;
+   }
+   .container{
+    Width: 
+    1047px;
+    Height :
+    1662px;
+    Top :
+    937px;
+    Left: 
+    132px;
+    right: 261px;
+   }
+   .section-title{
+    display:flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items:center ;
+   }
+   .courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap:24px ;
+}
+.course{
+    /* position: absolute;  
+      width: 329px;
+     height: 476px;
+     margin-top: ;
+     width: 329px; */
+     width: 329px;
+     height: 476px;
+     margin-left:5%;
+     margin-right: 5%;
+     margin-bottom: 5%;
+     padding-left: 5px;
+     border-radius: 0;
+     box-shadow: 10px 10px 40px gray;
+}
+.courses .course-banner img{ 
+    height: 256px;
+    width: 300px;
+    border-radius: 5px;
+    padding-top:17px;
+    padding-right: 15px;
+    padding-bottom: 203px;
+    padding-left: 14px;
+    
+}
+.course-detail p{
+font-size: 14px;
+}
+.course-detail{
+    display:inline-block;
+    position: relative;
+    bottom: 220px;
+    padding-left: 15px;
+    
+} 
+.course-info{
+    display: flex;
+    align-items: center;
+    justify-content: space;
+}
+.course-info i{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+}
+/* button added by nk */
+.button .btn-buy{
+    width: 300px;
+   padding: 20px 20px;
+   margin-right: 15px;
+   color: white;
+   background-color: orange;
+   font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+   cursor: pointer;
+}
+.button .btn-cart{
+    width: 300px;
+    padding: 20px 20px;
+    color: white;
+    background-color: tomato;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+/* section-5  style end */
+
+/* footer style start*/
+
+footer{
+    background-color: #0A0826;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container h1{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 40px;
+   text-align: center;
+
+}
+.footer-container p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.social-icon{
+   text-align: center;
+   margin-top: 30px;
+   cursor: pointer;
+  
+ 
+}
+
+.social-icon i{
+    margin-left:12px;
+    font-size: 30px;
+    background-color: rgba(121, 120, 120, 0.425);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+
+/* footer style end */
+
+
+/*start responsive section-1*
+
+/*start responsive section-1*/
+   
