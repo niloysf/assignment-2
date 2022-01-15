@@ -4,20 +4,25 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(153, 170, 175);
     }
-    main{
+    /* .main-section{
+        width: 80%;
+    } */
+    /* main{
         display:flex;
         flex-direction: column;
-        /* justify-content: center; */
+      justify-content: center; 
         align-items:center ;
-    } 
+    }  */
+    /* section-1 */
     .container{
         background-color: white;
         
         /* border-radius: 10px; */
         padding:30px ;
-        margin-top: 21px;
-    
+        margin-top: 21px; 
+     
     }
+   
     .common-btn-style{
         background-color: #E02C6D;
         width: 196px;
@@ -38,18 +43,24 @@ border: none;
         
         width: 440px;
         height: 414px;
+        cursor: pointer;
+        transition: transform 0.8s;
+    }
+
+    .half img:hover{
+transform: scale(1.1);
     }
     hr{
             border: 1px solid #D1D1D1;
             margin: 27px;
         }
-   footer{
+   /* footer{
     Width:1104px;
     
      padding: 50px , 50px, 589px ,538px;
      text-align: center; 
     background-color:#0A0826 ;
-    /* border-radius: 10px; */
+    // border-radius: 10px;  
    
    }
    footer p{
@@ -58,8 +69,8 @@ border: none;
   footer .simble{
         color: white;
         padding-top: 0px;
-   }
-   .container{
+   } */
+   /* .container{
     Width: 
     1047px;
     Height :
@@ -69,7 +80,7 @@ border: none;
     Left: 
     132px;
     right: 261px;
-   }
+   } */
    .section-title{
     display:flex;
     flex-direction: column;
@@ -130,7 +141,29 @@ font-size: 14px;
 .fa-star.empty{
     color: #AEAEAE;
 }
-/* button added by nk */
+/* icon */
+
+.section-5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+
+.communication-icon{
+    display: flex;
+    /* grid-template-rows: repeat(2,1fr);
+    grid-row-gap:10px ; */
+
+    /* padding-right: 1000px; */
+    
+    
+}
+/* button added  */
+
 .button .btn-buy{
     width: 300px;
    padding: 20px 20px;
@@ -155,13 +188,33 @@ font-size: 14px;
     cursor: pointer;
 
 }
+.shop{
+    margin-right: 30px;
+}
+.shop p{
+    cursor: pointer;
+}
+.shop i{
+    color: orange;
+    font-size: 25px;
+
+}
+
+.chat i{
+    color: orange;
+    font-size: 25px;
+}
+
+.chat p{
+    cursor: pointer;
+}
 /* section-5  style end */
 
 /* footer style start*/
 
 footer{
     background-color: #0A0826;
-    height: 400px;
+    height: 400px; 
     color: white;
     display: flex;
     justify-content: center;
@@ -171,19 +224,19 @@ footer{
 .footer-container h1{
     font-family: Poppins;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
    text-align: center;
 
 }
 .footer-container p{
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
     margin-top: 8px;
 }
 
 .social-icon{
    text-align: center;
-   margin-top: 30px;
+   margin-top: 20px;
    cursor: pointer;
   
  
@@ -191,7 +244,7 @@ footer{
 
 .social-icon i{
     margin-left:12px;
-    font-size: 30px;
+    font-size: 20px;
     background-color: rgba(121, 120, 120, 0.425);
     padding: 15px;
     border-radius: 50%;
@@ -204,4 +257,25 @@ footer{
 /*start responsive section-1*
 
 /*start responsive section-1*/
+/* media quary */
+@media (max-width:952px){
+  .main-section, .container,.full {
+    width: 100%;
+}
+.main-section,.courses {
+    grid-template-columns: repeat(1 , 1fr);
+}
+ .main-section, .container, .courses {
+        flex-direction: column;
+    }
+}
+/* tablet devices */
+@media only screen and (min-width:688px) and(max-width:992px) {
+    .main-section, .container ,.full{
+        width: 100%;
+    }
+    .main-section,.courses ,.container {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+}
    
